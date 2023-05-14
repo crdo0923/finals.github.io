@@ -1,0 +1,219 @@
+ @import url('https://fonts.googleapis.com/css2?family=Anton&family=Gugi&family=Lato:wght@100&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Condensed:wght@300&family=Sofia&display=swap');
+ * {
+    border:0px solid red;
+     margin: 0;
+     padding: 0%;
+     box-sizing: border-box;
+     font-family: 'spartan', sans-serif;
+ }
+
+ 
+ h1 {
+     font-size: 50px;
+     line-height: 64px;
+     color: #222;
+ }
+ 
+ h2 {
+     font-size: 46px;
+     line-height: 54px;
+     color: #222;
+ }
+ 
+ h4 {
+     font-size: 20px;
+     color: #222;
+ }
+ 
+ h6 {
+     font-weight: 700;
+     font-size: 12px;
+ }  
+ 
+ p {
+     font-size: 16px;
+     color: gray;
+     margin: 15px 0 20px 0;
+ }
+ 
+ .section-p1 {
+     padding: 60px 100px;
+ }
+ 
+ .section m1 {
+     margin: 40px 0;
+ }
+ 
+ body {
+     width: 100%;
+ }
+ /*header*/
+ 
+ #header {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 20px 80px;
+     background: #e3e6f3;
+     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+     z-index: 999;
+     position: sticky;
+     top: 0;
+     left: 0;
+ }
+ 
+ #navbar {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ #navbar li {
+     list-style: none;
+     padding: 0 20px;
+     position: relative;
+ }
+ 
+ #navbar li a {
+     text-decoration: none;
+     font-size: 16px;
+     font-weight: 600;
+     color: #1a1a1a;
+     transition: 0.3s;
+ }
+ 
+ #navbar li a:hover,
+ #navbar li a.active {
+     color: rgb(84, 155, 122);
+ }
+ 
+ #navbar li a.active::after,
+ #navbar li a:hover::after {
+     content: "";
+     width: 30%;
+     height: 2px;
+     background:  rgb(84, 155, 122);;
+     position: absolute;
+     bottom: -4px;
+     left: 20px;
+ }
+ /*homepage*/
+ #hero{
+    background-image: url("IMAGE/heropic.jpg");
+    height: 90vh;
+    width: 100%;
+    background-size:cover ;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+ }
+ #hero h4{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.788);
+    padding-bottom: 15px;
+    color:rgb(115, 238, 181);;
+    font-size: 27px;
+ }
+ #hero h1{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.753);
+    color: rgb(115, 238, 181);
+ }
+ #hero h2{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.753);
+    color:rgb(115, 238, 181);;
+ }
+ 
+.ph4{color:rgb(115, 238, 181);
+font-size: 14px;
+}  
+ 
+ button{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-color: #9e9494;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.562);
+border: none;
+color: rgb(255, 255, 255);;
+border-radius: 30px 30px 30px 30px;
+padding: 15px 25px;
+display: inline-block;
+cursor: pointer;
+font-size: 20px;
+background:rgb(26, 46, 36)
+ }button:hover{
+    background-color: rgba(142, 255, 202, 0.384);;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.733);
+    color: rgba(5, 5, 5, 0.671);
+ }  
+#feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#feature .fe-box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.171);
+    border: 1px solid #6d6a6a2d; 
+    border-radius:19px ;
+    margin: 15px 0;
+}
+#feature .fe-box:hover{
+    box-shadow: 10px 10px 54px rgba(75, 75, 75, 0.171);
+    border-radius: 25px;
+ 
+}
+#feature .fe-box img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+#feature .fe-box h6{
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius:4px ;
+    color: rgb(255, 238, 0);
+    background-color:rgb(72, 117, 0) ;
+}
+#feature .fe-box:nth-child(2) h6{
+    background-color: rgb(22, 177, 112);
+    color:  rgb(233, 233, 233);
+}
+#feature .fe-box:nth-child(3) h6{
+    background-color: rgb(22, 133, 177);
+    color:  rgb(0, 25, 48);
+}
+#feature .fe-box:nth-child(4) h6{
+    background-color: rgb(78, 247, 35);
+    color:  rgb(0, 49, 4);
+}
+#feature .fe-box:nth-child(5) h6{
+    background-color: rgb(211, 13, 128);
+    color:  rgb(192, 179, 188);
+}
+#feature .fe-box:nth-child(6) h6{
+    background-color: rgb(7, 0, 109);
+    color:  rgb(122, 111, 163);
+}
+
+#product-1 {
+    text-align: center;
+}
+#product-1 .pro{
+width: 23%;
+min-width: 250px;
+padding:10px 12px;
+border:1px solid cornflowerblue
+}
+#product-1 .pro img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+
+
+
+

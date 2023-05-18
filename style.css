@@ -225,18 +225,18 @@
          padding: 9px 8px 6px 8px;
          line-height: 1;
          border-radius: 4px;
-         color: rgb(255, 238, 0);
+         color: rgb(255, 255, 255);
          background-color: rgb(72, 117, 0);
      }
      
      #feature .fe-box:nth-child(2) h6 {
          background-color: rgb(22, 177, 112);
-         color: rgb(233, 233, 233);
+         color: rgb(255, 255, 255);
      }
      
      #feature .fe-box:nth-child(3) h6 {
          background-color: rgb(22, 133, 177);
-         color: rgb(0, 25, 48);
+         color: rgb(255, 255, 255);
      }
      
      #feature .fe-box:nth-child(4) h6 {
@@ -246,12 +246,12 @@
      
      #feature .fe-box:nth-child(5) h6 {
          background-color: rgb(211, 13, 128);
-         color: rgb(192, 179, 188);
+         color: rgb(255, 255, 255);
      }
      
      #feature .fe-box:nth-child(6) h6 {
          background-color: rgb(7, 0, 109);
-         color: rgb(122, 111, 163);
+         color: rgb(255, 255, 255);
      }
      
      #product-1 {

@@ -49,7 +49,7 @@
         color: #faf7f7;
         box-shadow:2px 2px 4px rgba(0, 0, 0, 0.562);
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.562);
-        background-color: rgb(0, 51, 27);
+        background-color: rgb(0, 0, 0);
         border: none;
         border-radius: 10px;
         outline: none;
@@ -64,9 +64,9 @@
         color: #ffffff;
         box-shadow:2px 2px 4px rgba(0, 0, 0, 0.562);
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.562);
-        background-color:rgba(14, 131, 72, 0.582);
+        background-color:rgba(0, 0, 0, 0.582);
         border-radius: 20px;
-      border: 1px solid rgba(14, 131, 72, 0.582);
+      border: 1px solid rgba(0, 0, 0, 0.582);
         outline: none;
         cursor: pointer;
         transition: 0.2s;
@@ -83,8 +83,8 @@
          align-items: center;
          justify-content: space-between;
          padding: 20px 80px;
-         background:#6f817a ;
-         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+         background:#eeecec ;
+         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.096);
          z-index: 999;
          position: sticky;
          top: 0;
@@ -113,7 +113,7 @@
      
      #navbar li a:hover,
      #navbar li a.active {
-         color: rgb(253, 253, 253);
+         color: rgb(0, 0, 0);
      }
      
      #navbar li a.active::after,
@@ -121,7 +121,7 @@
          content: "";
          width: 30%;
          height: 2px;
-         background: rgb(255, 255, 255);
+         background: rgb(0, 0, 0);
          ;
          position: absolute;
          bottom: -4px;
@@ -152,30 +152,30 @@
      #hero h4 {
          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.788);
          padding-bottom: 15px;
-         color: rgb(115, 238, 181);
+         color: rgb(255, 255, 255);
          ;
          font-size: 27px;
      }
      
      #hero h1 {
          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.753);
-         color: rgb(115, 238, 181);
+         color: rgb(255, 255, 255);
      }
      
      #hero h2 {
          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.753);
-         color: rgb(115, 238, 181);
+         color: rgb(255, 255, 255);
          ;
      }
      
      .ph4 {
-         color: rgb(115, 238, 181);
+         color: rgb(255, 255, 255);
          font-size: 14px;
      }
      
      #hero button{
          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-         background-color: #9e9494;
+         background-color: rgb(0, 0, 0);
          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.562);
          border: none;
          color: rgb(255, 255, 255);
@@ -184,13 +184,13 @@
          display: inline-block;
          cursor: pointer;
          font-size: 20px;
-         background: rgb(26, 46, 36);
-         transition: 0.5s ease;
+         background: rgb(0, 0, 0);
+         transition: 0.3s ease;
      }
      
     #hero button:hover {
-         background-color: rgba(142, 255, 202, 0.384);
-         color:black;
+         background-color: rgb(255, 255, 255);
+         color:rgb(0, 0, 0);
      }
      
      #feature {
@@ -226,31 +226,31 @@
          line-height: 1;
          border-radius: 4px;
          color: rgb(255, 255, 255);
-         background-color: rgb(72, 117, 0);
+         background-color: rgb(0, 0, 0);
      }
      
      #feature .fe-box:nth-child(2) h6 {
-         background-color: rgb(22, 177, 112);
+         background-color:  rgb(0, 0, 0);
          color: rgb(255, 255, 255);
      }
      
      #feature .fe-box:nth-child(3) h6 {
-         background-color: rgb(22, 133, 177);
+         background-color:  rgb(0, 0, 0);
          color: rgb(255, 255, 255);
      }
      
      #feature .fe-box:nth-child(4) h6 {
-         background-color: rgb(78, 247, 35);
-         color: rgb(0, 49, 4);
+         background-color: rgb(0, 0, 0);
+         color: rgb(255, 255, 255);
      }
      
      #feature .fe-box:nth-child(5) h6 {
-         background-color: rgb(211, 13, 128);
+         background-color:  rgb(0, 0, 0);
          color: rgb(255, 255, 255);
      }
      
      #feature .fe-box:nth-child(6) h6 {
-         background-color: rgb(7, 0, 109);
+         background-color: rgb(0, 0, 0);
          color: rgb(255, 255, 255);
      }
      
@@ -270,7 +270,7 @@
          width: 23%;
          min-width: 250px;
          padding: 10px 12px;
-         border: 1px solid rgb(71, 136, 255);
+         border: 1px solid rgb(0, 0, 0);
          border-radius: 25px;
          cursor: pointer;
          box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.219);
@@ -317,8 +317,8 @@
         height: 40px;
         line-height: 40px;
         border-radius: 50px;
-        background-color: rgba(22, 177, 112, 0.226);
-        color: rgb(21, 71, 1);
+        background-color: rgba(255, 255, 255, 0.226);
+        color: rgb(0, 0, 0);
         border: 1px solid gray;
         position: absolute;
         bottom: 20px;
@@ -355,7 +355,7 @@
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.562);
      }
      #banner button:hover{
-        background-color: rgba(142, 255, 202, 0.61);
+        background-color: rgba(255, 255, 255, 0.61);
         color:black;
      }
      #sm-banner{
@@ -401,8 +401,8 @@
         padding-bottom: 15px;
      }
      #sm-banner .banner-box:hover button{
-        background-color: rgba(142, 255, 202, 0.658);
-        border: 1px solid rgb(142, 255, 202);
+        background-color: rgba(255, 255, 255, 0.658);
+        border: 1px solid rgb(255, 255, 255);
         color: rgb(48, 36, 36);
 
      }
@@ -440,7 +440,7 @@
 
      }
      #banner3 h3{
-        color: rgba(142, 255, 202, 0.781);
+        color: rgba(255, 255, 255, 0.781);
         font-size: 19px;
         font-weight: 800;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.705);
@@ -488,12 +488,40 @@
         box-shadow:rgba(0, 0, 0, 0.479) ;
         outline: none;
      }
-     #newsletter button{
-        background-color: rgb(1, 235, 126);
+
+     button.sup{
+        background-color: rgb(207, 205, 205);
         white-space: nowrap;
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
-     }
+        border-bottom-right-radius:15px;
+        border-top-right-radius:15px ;
+        font-size: 14px;
+        font-weight: 600;
+        padding: 15px 30px;
+        color: #000000;
+        box-shadow:2px 2px 4px rgba(0, 0, 0, 0.562);
+        background-color: rgb(255, 255, 255);
+        outline: none;
+        cursor: pointer;
+        transition: 0.2s;
+      }
+      button.sup:hover{
+        background-color: rgb(207, 205, 205);
+        white-space: nowrap;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        font-size: 14px;
+        font-weight: 600;
+        padding: 15px 30px;
+        color: #fffafa;
+        box-shadow:2px 2px 4px rgba(0, 0, 0, 0.562);
+        background-color: rgb(0, 0, 0);
+        outline: none;
+        cursor: pointer;
+        transition: 0.2s;
+      }
+
      footer{
         display: flex;
         flex-wrap: wrap;
@@ -543,6 +571,108 @@
         text-align: center;
      }
 
+
+/*shop page*/
+
+#page-header{
+    background-image: url("IMAGE/b1.jpg");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+
+#page-header h2
+,#page-header h4{
+    color: #fff;
+}
+#pagination {
+    text-align: center;
+}
+#pagination a{
+    text-decoration: none;
+    background-color: #000000bb;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+#pagination i{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/*single product*/
+#prodetails{
+    display: flex;
+    margin-top: 20px;
+
+}
+#prodetails .single-pro-image{
+    width: 25%;
+    margin-right: 50px;
+}
+#prodetails .single-pro-details{
+    width: 50%;
+    padding-top:30px ;
+}
+#prodetails .single-pro-details h4{
+    padding :40px 0 20px 0 ;
+}
+#prodetails .single-pro-details h2{
+    font-size: 26px;
+}
+#prodetails .single-pro-details input{
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    margin-right:10px ;
+    background-color: #636363;
+    font-size: 18px;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+    box-shadow:2px 2px 4px rgba(0, 0, 0, 0.562);
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+#prodetails .single-pro-details input:focus{
+    outline: #000000;
+}
+#prodetails .single-pro-details button{
+    background-color: #636363;
+}
+#prodetails .single-pro-details span{
+    line-height: 25px;
+}
+
+/*about page */
+
+#page-header.about-header{
+    background-image: url("IMAGE/b2.jpg");
+}
+#page-header.about-header h2{
+   text-shadow: #000000;
+
+}
+#about-header{
+    display: flex;
+    align-items: center;
+}
+#about-header img{
+    width: 40%;
+    height: auto;
+    border-radius:10px ;
+}
+#about-header div{
+    padding-left:40px ;
+}
 
 /*MEDIA QEURY*/
 
